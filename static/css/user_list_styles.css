@@ -1,0 +1,26 @@
+/* user_list_styles.css */
+body {
+    background-color: #a688e0;
+    text-align: center;
+}
+
+.user-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(180, 227, 39);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-list {
+    padding: 0;
+    list-style: square;
+}
+
+.user-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ba5f5f;
+    border-radius: 5px;
+}
