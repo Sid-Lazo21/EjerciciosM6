@@ -9,7 +9,6 @@ class Usuario(models.Model):
 
     def __str__(self):
         return self.nombre
-
     class Meta:
         app_label = 'myaplicacion'  # Reemplaza 'myaplicacion' con el nombre real de tu aplicación
 
